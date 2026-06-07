@@ -7,18 +7,16 @@ importance: 1
 category: work
 related_publications: false
 ---
-* GitHub Repository: [https://github.com/Arthod/python-minizinc-maker]()
-* PyPI Package: [https://pypi.org/project/pymzm/]()
+* GitHub Repository: [https://github.com/Arthod/python-minizinc-maker](https://github.com/Arthod/python-minizinc-maker)
+* PyPI Package: [https://pypi.org/project/pymzm/](https://pypi.org/project/pymzm/)
 
-Python MiniZinc Maker is an open-source library that allows developers to build pure [MiniZinc](https://www.minizinc.org/) models directly from Python code. Instead of manually writing `.mzn` files, users can define variables, constraints, objectives, and global constraints using a Python API and automatically generate valid MiniZinc models. The project bridges the gap between Python applications and constraint programming workflows powered by MiniZinc.
+Python MiniZinc Maker is an open-source library that allows developers to build pure [MiniZinc](https://www.minizinc.org/) models directly from Python code. Instead of manually writing `.mzn` files, users can define variables, constraints, objectives, and global constraints using a Python API and automatically generate valid MiniZinc models that can be solved using any MiniZinc-compatible solver.
 
 The library was designed to make optimization and constraint modeling more accessible for Python developers while preserving the flexibility and solver-independence offered by MiniZinc. MiniZinc itself is a high-level constraint modeling language that supports a wide range of optimization and satisfaction problems across multiple solver backends.
 
 ## Example Usage
 
-A model can be created entirely from Python by defining variables, constraints, and optimization goals. The generated output is a standard MiniZinc model that can be solved using any MiniZinc-compatible solver.
-
-We give below a 
+We give below an example of defining the classic [8-queens problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle), writing it to MiniZinc and solving it using [Gecode](https://www.gecode.dev/).
 
 ```python
 import pymzm
