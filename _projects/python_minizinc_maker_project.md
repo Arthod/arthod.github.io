@@ -37,5 +37,5 @@ model.generate()
 import minizinc
 gecode = minizinc.Solver.lookup("gecode")
 result = minizinc.Instance(gecode, model).solve(all_solutions=False)
-# queen on column i is in row results[0, f"q_{j}"]
+# queen on column i is in row results[0, f"q_{i}"]
 ```
