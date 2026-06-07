@@ -18,7 +18,7 @@ cv:
     #street: 2712 Broadway St
     city: Odense
     region: Denmark
-    postalCode: 5000
+    #postalCode: 5000
     countryCode: DK
 
   sections:
@@ -50,7 +50,7 @@ cv:
         studyType: High School
         start_date: 2016
         end_date: 2019
-        highlughts:
+        highlights:
           - Final Project - The Perceptron Algorithm
 
     Experience:
