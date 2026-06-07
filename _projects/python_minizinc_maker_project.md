@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Python MiniZinc Maker
-description: Generate MiniZinc models programmatically from Python
+description: Generate MiniZinc models programmatically from Python.
 #img: assets/img/projects/python-minizinc-maker/banner.jpg
 importance: 1
-category: work
+category: current
 related_publications: false
 ---
 * GitHub Repository: [https://github.com/Arthod/python-minizinc-maker](https://github.com/Arthod/python-minizinc-maker)

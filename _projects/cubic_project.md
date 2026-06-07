@@ -4,12 +4,12 @@ title: Cubic
 description: Programmer for the puzzle video game Cubic, DEMO available on Steam.
 img: assets/img/projects/cubic.jpg
 importance: 1
-category: work
+category: current
 related_publications: false
 ---
 
 <p align="center">
-  <img src="../../assets/img/projects/cubic.jpg" />
+  <img src="../../assets/img/projects/cubic.jpg" alt="Cubic Game Banner" style="max-width: 70%; height: auto;"/>
 </p>
 
 **Cubic** is a grid-based puzzle and exploration game equally charming and strange. Play as a shattered star journeying through a mysterious world in search of its other half. Solve puzzles by combining cubes, and learn how novel ideas can arise from the simplest of rules.
