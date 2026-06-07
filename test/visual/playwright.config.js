@@ -6,9 +6,9 @@ const repoRoot = path.resolve(__dirname, "../..");
 const webServer = process.env.NO_WEBSERVER
   ? undefined
   : {
-      command: "bundle exec jekyll serve --host 127.0.0.1 --port 4000 --baseurl /al-folio --quiet",
+      command: "bundle exec jekyll serve --host 127.0.0.1 --port 4000 --quiet",
       cwd: repoRoot,
-      url: "http://127.0.0.1:4000/al-folio/",
+      url: "http://127.0.0.1:4000/",
       reuseExistingServer: !process.env.CI,
       timeout: 300000,
     };
@@ -25,7 +25,7 @@ module.exports = {
     },
   },
   use: {
-    baseURL: "http://127.0.0.1:4000/al-folio",
+    baseURL: "http://127.0.0.1:4000",
     screenshot: "only-on-failure",
     trace: "retain-on-failure",
   },

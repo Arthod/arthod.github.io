@@ -3,7 +3,7 @@ const { preparePage, stabilizeVisuals } = require("./helpers");
 
 test("publications Abs toggle opens and closes", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/publications/", { waitUntil: "networkidle" });
+  await page.goto("/publications/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const absButton = page.getByRole("button", { name: "Abs" }).first();
@@ -19,7 +19,7 @@ test("publications Abs toggle opens and closes", async ({ page }) => {
 
 test("publication popover works without bootstrap compat runtime", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/publications/", { waitUntil: "networkidle" });
+  await page.goto("/publications/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const popoverTrigger = page.locator('[data-toggle="popover"]').first();
@@ -33,7 +33,7 @@ test("mobile navbar can expand/collapse", async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== "mobile", "mobile-only navigation behavior");
 
   await preparePage(page, "light");
-  await page.goto("/al-folio/", { waitUntil: "networkidle" });
+  await page.goto("/", { waitUntil: "networkidle" });
 
   const toggle = page.locator(".navbar-toggler").first();
   await expect(toggle).toBeVisible();
@@ -48,7 +48,7 @@ test("mobile navbar can expand/collapse", async ({ page }, testInfo) => {
 
 test("repositories page renders external stat cards with deterministic fixtures", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/repositories/", { waitUntil: "networkidle" });
+  await page.goto("/repositories/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const repoImages = page.locator('img[src*="github-readme-stats"], img[src*="github-profile-trophy"]');
@@ -60,7 +60,7 @@ test("repositories page renders external stat cards with deterministic fixtures"
 
 test("blog pagination uses core Tailwind-native styling contract", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/blog/", { waitUntil: "networkidle" });
+  await page.goto("/blog/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const pagination = page.locator(".af-pagination");
@@ -89,7 +89,7 @@ test("navbar menu stays right-aligned on desktop pages", async ({ page }, testIn
   test.skip(testInfo.project.name === "mobile", "desktop-only alignment contract");
 
   await preparePage(page, "light");
-  await page.goto("/al-folio/", { waitUntil: "networkidle" });
+  await page.goto("/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const alignment = await page.evaluate(() => {
@@ -142,7 +142,7 @@ test("navbar search button opens modal and toggle buttons use pointer cursor", a
 
 test("related posts are wrapped in a valid list", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/blog/2023/tables/", { waitUntil: "networkidle" });
+  await page.goto("/blog/2023/tables/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const heading = page.getByRole("heading", { name: "Enjoy Reading This Article?" });
@@ -161,7 +161,7 @@ test("related posts are wrapped in a valid list", async ({ page }) => {
 
 test("inline code uses compact normal-weight typography", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/blog/2023/sidebar-table-of-contents/", { waitUntil: "networkidle" });
+  await page.goto("/blog/2023/sidebar-table-of-contents/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const inlineCodeStyle = await page.evaluate(() => {
@@ -186,7 +186,7 @@ test("project cards hover with upward lift animation", async ({ page }, testInfo
   test.skip(testInfo.project.name === "mobile", "hover-specific assertion is desktop-only");
 
   await preparePage(page, "light");
-  await page.goto("/al-folio/projects/", { waitUntil: "networkidle" });
+  await page.goto("/projects/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const card = page.locator(".projects .hoverable").first();
@@ -204,7 +204,7 @@ test("project cards hover with upward lift animation", async ({ page }, testInfo
 
 test("teaching calendar toggle has pointer cursor and toggles calendar visibility", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/teaching/", { waitUntil: "networkidle" });
+  await page.goto("/teaching/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const button = page.locator("#calendar-toggle-btn");
@@ -226,7 +226,7 @@ test("toc sidebar renders with tocbot styling and data-toc-text label", async ({
   test.skip(testInfo.project.name === "mobile", "TOC sidebar is hidden on mobile viewport");
 
   await preparePage(page, "light");
-  await page.goto("/al-folio/blog/2023/sidebar-table-of-contents/", { waitUntil: "networkidle" });
+  await page.goto("/blog/2023/sidebar-table-of-contents/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const tocSidebar = page.locator("#toc-sidebar");
@@ -266,7 +266,7 @@ test("toc sidebar renders with tocbot styling and data-toc-text label", async ({
 
 test("tailwind table engine provides search, pagination, and sorting in pretty tables", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/blog/2023/tables/", { waitUntil: "networkidle" });
+  await page.goto("/blog/2023/tables/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const interactiveTable = page.locator('table[data-search="true"]');
@@ -287,7 +287,7 @@ test("tailwind table engine provides search, pagination, and sorting in pretty t
 
 test("lightbox galleries open in-page modal instead of navigating away", async ({ page }) => {
   await preparePage(page, "light");
-  await page.goto("/al-folio/blog/2024/photo-gallery/", { waitUntil: "networkidle" });
+  await page.goto("/blog/2024/photo-gallery/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
   const firstLightboxLink = page.locator("a[data-lightbox]").first();
@@ -316,7 +316,7 @@ test("core pages no longer emit jQuery-style runtime errors", async ({ page }) =
   });
 
   await preparePage(page, "light");
-  const pages = ["/al-folio/", "/al-folio/projects/", "/al-folio/blog/2024/photo-gallery/", "/al-folio/blog/2023/tables/"];
+  const pages = ["/", "/projects/", "/blog/2024/photo-gallery/", "/blog/2023/tables/"];
 
   for (const target of pages) {
     await page.goto(target, { waitUntil: "networkidle" });
