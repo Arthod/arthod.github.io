@@ -2,7 +2,7 @@
 layout: page
 title: Python MiniZinc Maker
 description: Generate MiniZinc models programmatically from Python
-img: assets/img/projects/python-minizinc-maker/banner.jpg
+#img: assets/img/projects/python-minizinc-maker/banner.jpg
 importance: 1
 category: work
 related_publications: false
@@ -14,7 +14,7 @@ Python MiniZinc Maker is an open-source library that allows developers to build 
 
 The library was designed to make optimization and constraint modeling more accessible for Python developers while preserving the flexibility and solver-independence offered by MiniZinc. MiniZinc itself is a high-level constraint modeling language that supports a wide range of optimization and satisfaction problems across multiple solver backends.
 
-## Example Usage
+## Example
 
 We give below an example of defining the classic [8-queens problem](https://en.wikipedia.org/wiki/Eight_queens_puzzle), writing it to MiniZinc and solving it using [Gecode](https://www.gecode.dev/).
 

@@ -129,9 +129,6 @@ cv:
       - name: English
         summary: "Fluent"
 
-      - name: German
-        summary: "Basic"
-
    # Interests:
    #   - name: Physics
    #     icon: fa-solid fa-tag
