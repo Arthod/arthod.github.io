@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://arthod.github.io/sitemap.xml
