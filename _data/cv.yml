@@ -3,7 +3,7 @@ cv:
   label: Software Engineer and Researcher
   email: ahmaoth@gmail.com
   location: Odense, Denmark
-  image: ""
+ # image: ""
   #summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
@@ -24,10 +24,10 @@ cv:
   sections:
     Education:
       - institution: University of Southern Denmark
-        location: Odense, Denmark
-        url: https://www.sdu.dk/
-        area: Computer Science
-        studyType: MSc
+       # location: Odense, Denmark
+       # url: https://www.sdu.dk/
+      #  area: Computer Science
+        studyType: MSc in Computer Science
         start_date: 2022
         end_date: 2024
        # score: ""
@@ -37,8 +37,8 @@ cv:
 
       - institution: University of Southern Denmark
         location: Odense, Denmark
-        area: Computer Science
-        studyType: BSc
+       # area: Computer Science
+        studyType: BSc in Computer Science
         start_date: 2019
         end_date: 2022
         highlights:
@@ -46,7 +46,7 @@ cv:
 
       - institution: Odense Technical Gymnasium
         location: Odense, Denmark
-        area: Mathematics and Physics
+        area: Mathematics, Physics and Programming
         studyType: High School
         start_date: 2016
         end_date: 2019
@@ -58,8 +58,8 @@ cv:
         position: Systems Developer
         location: Odense, Denmark
         start_date: 2025
-        end_date: present
-        summary: Flight planning software
+        end_date: now
+        summary: Flight-planning software
         #highlights:
 
       - company: ForeFlight, A Boeing Company
@@ -67,12 +67,14 @@ cv:
         location: Odense, Denmark
         start_date: 2024
         end_date: 2025
-        summary: Flight planning software
+        summary: Flight-planning software
         #highlights:
         #  - Description 1.
         #  - Description 2.
 
-      - company: Centre for Quantum Mathematics (QM), University of Southern Denmark
+      - company: >
+          Centre for Quantum Mathematics (QM), 
+          University of Southern Denmark
         position: Software Developer
         location: Odense, Denmark
         start_date: 2023
@@ -119,15 +121,15 @@ cv:
    #     icon: fa-solid fa-hashtag
    #     keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Languages:
-      - name: Danish
-        summary: "Native speaker"
+   # Languages:
+   #   - name: Danish
+   #     summary: "Native speaker"
 
-      - name: Arabic
-        summary: "Fluent"
+   #   - name: Arabic
+   #     summary: "Fluent"
 
-      - name: English
-        summary: "Fluent"
+   #   - name: English
+   #     summary: "Fluent"
 
    # Interests:
    #   - name: Physics
