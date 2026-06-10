@@ -28,3 +28,5 @@ latest_posts:
 I am a Systems Developer based in Odense, Denmark. I currently work for [Jeppesen ForeFlight](https://www.jeppesenforeflight.com/), where I develop flight-planning software.
 
 In my free time I enjoy participating in optimization competitions in operations research and conducting research. I am also a member of working group 1 of the COST Action CA22137 - Randomised Optimisation Algorithms Research Network ([ROAR-NET](https://roar-net.eu/)).
+
+I am currently competing in the [ROADEF 2026 competition](https://roadef.org/challenge/2026/en/) in team S24.
