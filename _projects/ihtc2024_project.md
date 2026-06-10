@@ -23,8 +23,13 @@ Operations Research, Data Analytics and Logistics, Volume 45.
 
 ## Images
 
+Group photos are taken from the [IHTC 2024 homepage](https://ihtc2024.github.io/).
+
 <p align="center">
   <img src="../../assets/img/projects/ihtc2024_participants.jpg" alt="IHTC 2024 Participants" style="max-width: 70%; height: auto;"/>
+</p>
+<p align="center">
+  <img src="../../assets/img/projects/ihtc2024_top5.jpg" alt="IHTC 2024 Top 5 Teams" style="max-width: 70%; height: auto;"/>
 </p>
 <p align="center">
   <img src="../../assets/img/projects/ihtc2024_certificate.webp" alt="IHTC 2024 Certificate of Achievement" style="max-width: 70%; height: auto;"/>
