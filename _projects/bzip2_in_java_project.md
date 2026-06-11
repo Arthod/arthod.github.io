@@ -15,11 +15,11 @@ This pipeline improves compressibility by first rearranging input data into runs
 
 My bachelor thesis focused on implementing the bzip2 compression and decompression pipeline in Java, and analyzing the performance and contribution of the individual components to the overall compression process. We further experiment with different configurations to the standard pipeline and suggest improvements to the algorithm while retaining backwards compatibility.
 
-The thesis was supervised by [Prof. Rolf Fagerberg](https://imada.sdu.dk/u/rolf/).
+The thesis was supervised by Prof. [Rolf Fagerberg](https://imada.sdu.dk/u/rolf/).
 
 ## Thesis and Source Code
 
-- Thesis available [here](assets/pdf/bzip2_bachelor_thesis.pdf) in pdf.
+- Thesis available [here](/assets/pdf/ahmadothman-bachelorproject.pdf) in pdf.
 - Implementation can be found in the GitHub repository [Bzip2-in-Java](https://github.com/Arthod/Bzip2-in-Java).
 
 ## References
