@@ -9,7 +9,7 @@ related_publications: false
 
 [bzip2](https://sourceware.org/bzip2/) is a widely used lossless compression program that achieves high compression ratios through a pipeline of transformations, most notably the Burrows–Wheeler Transform (BWT) [[1]](#1), followed by Move-To-Front (MTF) encoding, Run-Length Encoding (RLE), and Huffman coding [[2]](#2). In particular, the compression process can be described as:
 
-**RLE -> BWT → MTF → RLE → Huffman coding**
+**RLE → BWT → MTF → RLE → Huffman coding**
 
 This pipeline improves compressibility by first rearranging input data into runs of similar symbols (BWT), then exploiting locality (MTF), compressing repeated patterns (RLE), and finally applying entropy coding (Huffman).
 
