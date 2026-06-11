@@ -3,7 +3,7 @@ layout: page
 title: Python MiniZinc Maker
 description: Generate MiniZinc models programmatically from Python.
 #img: assets/img/projects/python-minizinc-maker/banner.jpg
-importance: 2
+importance: 1
 category: current
 related_publications: false
 ---

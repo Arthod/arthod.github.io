@@ -3,7 +3,7 @@ layout: page
 title: Cubic
 description: Programmer for the puzzle video game Cubic, DEMO available on Steam.
 img: assets/img/projects/cubic.jpg
-importance: 1
+importance: 10
 category: current
 related_publications: false
 ---
