@@ -3,7 +3,7 @@ layout: page
 title: IHTC 2024
 description: Part of the team that ranked 2nd in the Integrated Healthcare Timetabling Competition 2024.
 img: assets/img/projects/ihtc2024_certificate.webp
-importance: 2
+importance: 1
 category: former
 related_publications: false
 ---
