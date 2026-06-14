@@ -24,20 +24,17 @@ cv:
   sections:
     Education:
       - institution: University of Southern Denmark
-       # location: Odense, Denmark
-       # url: https://www.sdu.dk/
-      #  area: Computer Science
+      #  location: Odense, Denmark
+        area: Computer Science
         studyType: MSc in Computer Science
         start_date: 2022
         end_date: 2024
-       # score: ""
-       # courses: "Theory of Relativity"
         highlights:
           - Thesis - Evolving Software Systems for Metaheuristic Solutions to Timetabling Problems
 
       - institution: University of Southern Denmark
-        location: Odense, Denmark
-       # area: Computer Science
+      #  location: Odense, Denmark
+        area: Computer Science
         studyType: BSc in Computer Science
         start_date: 2019
         end_date: 2022
@@ -45,7 +42,7 @@ cv:
           - Thesis - Lossless File Compression with bzip2
 
       - institution: Odense Technical Gymnasium
-        location: Odense, Denmark
+      #  location: Odense, Denmark
         area: Mathematics, Physics and Programming
         studyType: High School
         start_date: 2016
@@ -56,7 +53,7 @@ cv:
     Experience:
       - company: Jeppesen ForeFlight
         position: Systems Developer
-        location: Odense, Denmark
+      #  location: Odense, Denmark
         start_date: 2025
         end_date: now
         summary: Flight-planning software
@@ -64,7 +61,7 @@ cv:
 
       - company: ForeFlight, A Boeing Company
         position: Systems Developer
-        location: Odense, Denmark
+      #  location: Odense, Denmark
         start_date: 2024
         end_date: 2025
         summary: Flight-planning software
@@ -76,13 +73,13 @@ cv:
           Centre for Quantum Mathematics (QM), 
           University of Southern Denmark
         position: Software Developer
-        location: Odense, Denmark
+      #  location: Odense, Denmark
         start_date: 2023
         end_date: 2025
 
       - company: University of Southern Denmark
         position: Software Developer
-        location: Odense, Denmark
+      #  location: Odense, Denmark
         start_date: 2020
         end_date: 2023
 
