@@ -8,11 +8,14 @@ category: former
 related_publications: false
 ---
 
-The [Integrated Healthcare Timetabling Competition 2024](https://ihtc2024.github.io/) (IHTC 2024) [[1]](#1) was an international competition that challenged participants to develop algorithms for solving a complex integrated healthcare timetabling problem. The competition introduced the problem Integrated Healthcare Timetabling Problem (IHTP), which integrates several NP-hard subproblems found in healthcare scheduling, including patient scheduling, nurse rostering and operating theatre scheduling.
+The [Integrated Healthcare Timetabling Competition 2024](https://ihtc2024.github.io/) (IHTC 2024) [[1]](#1) was an international optimization competition that challenged participants to develop algorithms for solving the Integrated Healthcare Timetabling Problem (IHTP). The IHTP combines several NP-hard healthcare scheduling problems into a single integrated problem, which includes patient scheduling, nurse rostering, and operating theatre scheduling.
 
-As part of a team of two, Prof. [Marco Chiarandini](https://imada.sdu.dk/u/marco) and I, we ranked 2nd in the competition and 1st in the open-source category out of a total of 32 teams across the world. Our solution was a multi-neighborhood, lexicographic local search algorithm that consisted of two phases: a simulated annealing phase followed by an iterated local search phase. The solver is available in our [GitHub repository](https://github.com/Arthod/ihtc2024-imada-submission).
+As part of a team of two, Prof. [Marco Chiarandini](https://imada.sdu.dk/u/marco) and I, we ranked 2nd place overall and 1st place in the open-source category among a total of 32 participating teams from around the world. Our solution was a multi-neighborhood, lexicographic local search algorithm consisting of two phases: a simulated annealing phase followed by an iterated local search phase. The solver is available on [GitHub](https://github.com/Arthod/ihtc2024-imada-submission).
 
-The algorithm was implemented in C++ and was largely structured around the [ROAR-NET API specification](https://github.com/roar-net/roar-net-api-spec), with various modifications focused on performance. Because of this, our result was featured in a [news article from the ROAR-NET](https://roar-net.eu/news/ihtc-2024-best-oss-prize/).
+The implementation is written in C++ and was largely based on the [ROAR-NET API specification](https://github.com/roar-net/roar-net-api-spec), with various modifications focused on performance. The work was featured in a [ROAR-NET news article](https://roar-net.eu/news/ihtc-2024-best-oss-prize/), and we presented it at [EURO 2025 in Leeds](https://www.euro-online.org/conf/euro34/treat_abstract?paperid=2774) as well as at the [ROAR-NET Third General Meeting in Zagreb](https://roar-net.eu/events/third-general-meeting/).
+
+Final paper is currently awaiting publication in a special issue of *Operations Research, Data Analytics and Logistics* (ORDAL) dedicated to the competition.
+
 
 ## References
 <a id="1">[1]</a> 
