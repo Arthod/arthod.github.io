@@ -2,7 +2,7 @@
 layout: page
 title: Bachelor Thesis on bzip2 Compression Software
 description: Implementation and analysis of the bzip2 compression pipeline in Java.
-importance: 1
+importance: 2
 category: former
 related_publications: false
 ---
