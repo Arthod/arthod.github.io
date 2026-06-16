@@ -16,6 +16,6 @@ related_publications: false
 
 * Try the DEMO on Steam: [https://store.steampowered.com/app/3037080/Cubic/](https://store.steampowered.com/app/3037080/Cubic/)
 
-The game is currently in active development. I work as the programmer alongside game and puzzle designer Victor, as well as an artist and graphic designer Axel. It is built in the [GameMaker Studio 2](https://gamemaker.io/en) engine using [GameMaker Language](https://manual.gamemaker.io/monthly/en/GameMaker_Language.htm).
+The game is currently in active development. I work as the programmer alongside game and puzzle designer Victor Kristensen and artist and graphic designer Axel Kristensen. It is built in the [GameMaker Studio 2](https://gamemaker.io/en) engine using [GameMaker Language](https://manual.gamemaker.io/monthly/en/GameMaker_Language.htm).
 
 Visit the game’s [webpage](https://www.cubicthegame.com) and join our [Discord](https://discord.com/invite/W6vzChE5JC) for more information and to stay updated.
