@@ -25,7 +25,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Systems Developer based in Odense, Denmark. I currently work for [Jeppesen ForeFlight](https://www.jeppesenforeflight.com/), where I develop flight-planning software.
+I am a Systems Developer based in Odense, Denmark. I have a MSc in Computer Science from the University of Southern Denmark. I currently work for [Jeppesen ForeFlight](https://www.jeppesenforeflight.com/), where I develop and optimize software for flight planning.
 
 In my free time I enjoy participating in optimization competitions in operations research and conducting research. I am also a member of working group 1 of the COST Action CA22137 - Randomised Optimisation Algorithms Research Network ([ROAR-NET](https://roar-net.eu/)).
 
